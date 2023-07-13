@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="Contact Us.css" />
+  </head>
+  <body>
+    <div class="contact-box">
+      <h1>Contact Us</h1>
+
+      <h4>Fill out the form below to get in touch with us</h4>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="30"
+          required
+        ></textarea>
+        <input type="button" id="submit" value="Submit" onclick="contact()" />
+      </form>
+
+      <h4>Other ways of contact</h4>
+      <p>You can also contact us in the following ways</p>
+
+      <ul>
+        <li>TEL: 123-456-7890</li>
+        <li>Email Address: info@example.com</li>
+        <li>Address: 1234 Main Street, City, State, Country</li>
+      </ul>
+    </div>
+
+    <script src="contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+#main{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-direction: row-reverse;
+    border-color: transparent;
+    
+}
+*{
+    text-align: center;
+  }
+.div1{
+    background-color: rgb(226, 227, 235);
+    width: 230px;
+    align-items: end;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.div2{
+    background-color: rgb(226, 227, 235);
+    width: 230px;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.div3{
+    background-color: rgb(226, 227, 235);
+    width:230px;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.div4{
+    background-color: rgb(226, 227, 235);
+    width:230px;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.div5{
+    background-color: rgb(226, 227, 235);
+    width:230px;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.div6{
+    background-color: rgb(226, 227, 235);
+    width:230px;
+    border: 10px solid rgb(70, 79, 81);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body{
+    background-image:url("Images/airplane.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div{
+    width: 400px;
+    height:280px;
+}
+p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.p1{
+    font-size: 30px;
+    border: 10px solid yellow;
+    width:400px;
+    text-align: center;
+    margin-left: 650px;
+    background-color: aliceblue;
+}
+.button{
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #011b41;
+    color: #c3c3c3;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #220ca3;
+    cursor: pointer;
+}
+.distance{
+    height:30px
+}
+.submitButton{
+    width:100px;
+    height:30px;
+}
+#login{
+    right: 0px;
+    position: relative;
+    
+}
